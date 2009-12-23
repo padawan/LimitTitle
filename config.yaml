@@ -3,7 +3,7 @@ id: limittitle
 version: 1.0
 author_link: http://ubiquitic.com/
 author_name: François Nonnenmacher, Ubiquitic
-plugin_link: http://ubiquitic.com/software/limit-title-movable-type-plugin.html
+plugin_link: http://ubiquitic.com/software/limittitle-movable-type-plugin.html
 description: <__trans phrase="Limit the maximum length of entry titles.">
 l10n_class: LimitTitle::L10N
 

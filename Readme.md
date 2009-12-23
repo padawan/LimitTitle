@@ -10,6 +10,7 @@
 By default, Movable sets the maxlength of the title field to 255 characters. You can override this system default by setting a lower value than 255 in the plugin _system_ preferences. If you want to use a specific value for a blog, go to this blog plugins preferences and change the maximum length there.
 
 The precedence of the maxlength preference is as follows:
+
 * if a limit is set for this blog, use it, otherwise…
 * if a system-level limit is set, use it, otherwise…
 * use MT default value (255).
