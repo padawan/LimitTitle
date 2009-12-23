@@ -1,0 +1,22 @@
+name: LimitTitle
+id: limittitle
+version: 1.0
+author_link: http://ubiquitic.com/
+author_name: François Nonnenmacher, Ubiquitic
+plugin_link: http://ubiquitic.com/software/limit-title-movable-type-plugin.html
+description: <__trans phrase="Limit the maximum length of entry titles.">
+l10n_class: LimitTitle::L10N
+
+system_config_template: system_config.tmpl
+blog_config_template: blog_config.tmpl
+
+settings:
+    sys_title_maxlength:
+        Default: 0
+        Scope: system
+    blog_title_maxlength:
+        Default: 0
+        Scope: blog
+
+callbacks:
+    MT::App::CMS::template_source.edit_entry: LimitTitle::Plugin::limit_title_maxlength
